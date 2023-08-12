@@ -11,3 +11,7 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes
+OLED_ENABLE = yes
+LTO_ENABLE = yes			# saves memory, takes more time to compile
+
+# BOOTLOADER = qmk-dfu # As I am trying to get my pro micros out of Catarina

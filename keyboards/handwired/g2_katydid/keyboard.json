@@ -21,7 +21,7 @@
     "split": {
         "enabled": true
     },
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
     "matrix_pins": {
         "cols": ["GP23", "GP22", "GP21", "GP20", "GP19", "GP18"],
         "rows": ["GP12", "GP13", "GP14", "GP15", "GP16", "GP17"]

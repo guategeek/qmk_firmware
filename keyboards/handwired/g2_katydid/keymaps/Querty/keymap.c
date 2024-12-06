@@ -41,7 +41,7 @@ enum custom_layers {
 //                 // when keycode AD_DDS is pressed
 //                 SEND_STRING("../");
 //             } else {
-//                 // when keycode AD_DDS is released
+//                 // when keycode AD_DDS is releasedbvb
 //             }
 //             break;
 //         case AD_SCOPE:
@@ -81,10 +81,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_NAV] = LAYOUT(
         QK_BOOT, KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                          KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11,
-        _______, _______, KC_HOME, KC_UP  , KC_END , KC_PGUP,                          _______, KC_P7  , KC_P8  , KC_P9  , KC_PMNS, KC_F12,
-        _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN,                          _______, KC_P4  , KC_P5  , KC_P6  , KC_PPLS, _______,
-        _______, _______, _______, _______, _______, _______,                          _______, KC_P1  , KC_P2  , KC_P3  , KC_SLSH, _______,
-        TG_NAV , _______, _______, _______, _______,                                            KC_PCMM, KC_P0  , KC_PDOT, KC_PENT, _______,
+        RM_VALU, _______, KC_HOME, KC_UP  , KC_END , KC_PGUP,                          _______, KC_P7  , KC_P8  , KC_P9  , KC_PMNS, KC_F12,
+        RM_VALD, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN,                          _______, KC_P4  , KC_P5  , KC_P6  , KC_PPLS, _______,
+        RM_HUEU, _______, _______, _______, _______, _______,                          _______, KC_P1  , KC_P2  , KC_P3  , KC_SLSH, _______,
+        TG_NAV , RM_TOGG, RM_NEXT, KC_MPRV, KC_MNXT,                                            KC_PCMM, KC_P0  , KC_PDOT, KC_PENT, _______,
                                                      _______, _______,        _______, _______,
                                             _______, _______, _______,        _______, _______, _______,
                                                               _______,        _______

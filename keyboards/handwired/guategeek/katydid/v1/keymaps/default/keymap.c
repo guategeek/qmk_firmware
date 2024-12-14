@@ -29,6 +29,26 @@ enum custom_layers {
   _NAV,
 };
 
+// Custom Layer Indicator LEDs
+// void keyboard_pre_init_user(void) {
+// setPinOutput(GP6);  
+// setPinOutput(GP7);  
+// }
+// layer_state_t layer_state_set_user(layer_state_t state) {
+//     if(IS_LAYER_ON_STATE(state, 1)) { 
+//         writePinHigh(GP6); 
+//     } 
+//     else { 
+//         writePinLow(GP7);
+//     } 
+//     if(IS_LAYER_ON_STATE(state, 2)) { 
+//         writePinHigh(GP6); 
+//     } 
+//     else { 
+//         writePinLow(GP7); 
+//     } 
+// return state; 
+// }
 
 // Custom keycodes
 #define TG_NAV TG(_NAV) // This makes a key to switch directly to the numbers layer

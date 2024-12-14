@@ -1,0 +1,8 @@
+{
+    "manufacturer": "GuateGeek",
+    "maintainer": "Jeff McArthur",
+    "url": "https://guategeek.com",
+    "usb": {
+        "vid": "0x4732"
+    }
+}

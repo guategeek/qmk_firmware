@@ -23,7 +23,7 @@
             "pin": "GP8"
         },
         "serial": {
-            "driver":"vendor",
+            "driver":"vendor"
         },
         "transport": {
             "sync": {
@@ -42,7 +42,7 @@
     },
     "rgb_matrix": {
         "driver": "ws2812",
-        "max_brightness": 50,
+        "max_brightness": 75,
         "sleep": true,
         "split_count": [35, 35],
         "animations": {
